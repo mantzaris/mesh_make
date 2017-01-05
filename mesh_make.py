@@ -29,3 +29,4 @@ def im2mesh( mat):
     print(Z1)
     ax.plot_wireframe(X1, Y1, Z1, rstride=10, cstride=10)
     plt.show()
+    #return X1,Y1,Z1
