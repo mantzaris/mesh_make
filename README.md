@@ -20,5 +20,5 @@ Returns the 3 structures required to produce a mesh for waterfall plots, wirefra
 import make_mesh as mm
 import numpy as np
 
-mm.in2mesh(np.random.rand(4,2))
+X,Y,Z = mm.in2mesh(np.random.rand(4,2))
 ```
